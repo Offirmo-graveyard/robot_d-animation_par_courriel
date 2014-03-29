@@ -14,7 +14,7 @@ var local_ips = _.chain(require('os').networkInterfaces())
 .value();
 
 // http://expressjs.com/4x/api.html
-var listening_port = 3000;
+var listening_port = Number(process.env.PORT || 5000);
 var express = require('express');
 var express_logger = require('morgan');
 var app = express();
@@ -33,6 +33,10 @@ app.use(function(req, res, next) {
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
+
+	if(err && err.status)
+		res.status(err.status);
+
 	res.render('error', {
 		message: err.message,
 		error: {}
