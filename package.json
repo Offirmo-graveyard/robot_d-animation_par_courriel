@@ -1,0 +1,48 @@
+{
+	"name": "courriel_bot",
+	"description": "A bot sending e-mails",
+	"author": "Offirmo <offirmo.net@gmail.com>",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node server/server"
+	},
+	"dependencies": {
+		"amdefine":                "latest",
+		"async":                   "latest",
+		"backbone":                "latest",
+		"colors":                  "latest",
+		"dustjs-linkedin":         "latest",
+		"edit-google-spreadsheet": "latest",
+		"ent":                     "latest",
+		"express":                 "~4",
+		"iconv-lite":              "latest",
+		"jschardet":               "latest",
+		"json-stringify-safe":     "latest",
+		"locale":                  "latest",
+		"localStorage":            "latest",
+		"lodash":                  "latest",
+		"longjohn":                "latest",
+		"moment":                  "latest",
+		"morgan":                  "latest",
+		"nconf":                   "latest",
+		"node-mandrill":           "latest",
+		"node-schedule":           "latest",
+		"prettyjson":              "latest",
+		"progress":                "latest",
+		"semver":                  "latest",
+		"underscore":              "latest",
+		"usage":                   "latest",
+		"when":                    "latest",
+		"winston":                 "latest"
+	},
+	"devDependencies": {
+		"chai":                    "latest",
+		"chai-as-promised":        "latest",
+		"chai-backbone":           "latest",
+		"chai-interface":          "latest",
+		"mocha":                   "latest",
+		"nodemon":                 "latest",
+		"sinon-chai":              "latest"
+	}
+}

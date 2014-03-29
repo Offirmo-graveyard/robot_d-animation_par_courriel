@@ -1,0 +1,17 @@
+{
+	"name": "corriel_bot",
+	"version": "0.0.1",
+	"dependencies": {
+		"bootstrap":                "latest",
+		"magnific-popup":           "latest",
+		"require-css":              "latest",
+		"requirejs":                "latest",
+		"requirejs-domready":       "latest",
+		"requirejs-plugins":        "latest",
+		"requirejs-text":           "latest",
+		"underscore":               "latest",
+		"when":                     "latest"
+	},
+	"devDependencies": {
+	}
+}
